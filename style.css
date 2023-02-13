@@ -1,36 +1,40 @@
 #body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(178, 178, 215);
-    text-align: center;
+    background-color: rgb(153, 178, 53);
     width: 100%;
 
 }
 #imgPerfil{
+    margin: 40px;
+    padding: 40px;
     width: 100px;
-    border: 3px solid red;
-}
+    border-radius: 15px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;}
 
 #textoAlternativo{
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
     background-color: cornsilk;
 
 }
-#sobre{
-    
+
+
+.lista{ 
+
+    margin: 20px;
     padding: 20px;
-    background-color: deepskyblue;
-    font-weight: 900px;
-    float:left;
-    width: 20%;
-    min-width: 300px;
-    min-height: 300px;
+    border-radius: 15px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
 
+    background-color: rgb(67, 157, 187);
+    text-align: left;
+    width: 25%;
+    min-width: 300px;
+    min-height: 150px;
 }
-#habilidades{
-    
-    padding: 10px;
-    float: left;
-
-    width: 20%;
-    min-width: 300px;
-    min-height: 300px;
+.links{
+    margin: 30px;
 }
