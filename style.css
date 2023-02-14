@@ -4,6 +4,9 @@
     width: 100%;
 
 }
+
+
+
 #imgPerfil{
     margin: 40px;
     padding: 40px;
@@ -13,6 +16,8 @@
     border-bottom: 5px solid black;}
 
 #textoAlternativo{
+    font-family:monospace;
+    font-size: 2em;
     width: 400px;
     margin: 20px;
     padding: 20px;
@@ -35,6 +40,33 @@
     min-width: 300px;
     min-height: 150px;
 }
-.links{
-    margin: 30px;
+
+
+#menu{
+    background: white;
+    width: 25px 5px;
+    height: 20px;
+    
+
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px 35px;
+    margin: 10px;
+}
+
+a:hover {
+    background: black;
+    color: aliceblue;
+    width: 20px;
+    border-radius: 20px 20px;
+}
+
+#nome{
+    padding: 20px;
+    text-shadow: 5px 5px rgb(237, 231, 220, 0.4);
+    font-family:cursive;
+    font-weight: 800;
+    text-decoration: underline;
 }
